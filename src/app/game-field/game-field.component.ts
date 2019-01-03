@@ -304,7 +304,7 @@ export class GameFieldComponent implements OnInit {
     }
     this.scene.nativeElement.append(health);
   }
-  chooseMethod(event) {
+  chooseMethod() {
     this.gameConfig.playSound('click');
     this.modal = this.modalSrv.open(this.dialog, { ariaLabelledBy: 'modal-basic-title'});
   }
