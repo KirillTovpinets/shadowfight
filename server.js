@@ -2,14 +2,14 @@ const express = require('express');
 const path = require('path');
 const mongodb = require('mongodb').MongoClient;
 const bodyParser = require('body-parser');
-const config = require('./config');
-const saveuser = require('./routes/saveuser');
-const scenesApi = require('./api/scenes');
-const methodsApi = require('./api/methods');
-const taskApi = require('./api/tasks');
+const config = require('./server/config');
+const saveuser = require('./server/routes/saveuser');
+const scenesApi = require('./server/api/scenes');
+const methodsApi = require('./server/api/methods');
+const taskApi = require('./server/api/tasks');
 
 const app = express();
-app.use(express.static(path.join(__dirname, 'dist')));
+app.use(express.static(path.join(__dirname, '/dist/game')));
 app.use(bodyParser.json({ type: 'application/json' }));
 
 app.use('/save', saveuser);
@@ -26,7 +26,7 @@ app.get('/records', (req, res) => {
   });
 });
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../dist/game/index.html'));
+  res.sendFile(path.join(__dirname, '/dist/game/index.html'));
 });
 
 mongodb.connect(config.dbString, (err, db) => {
