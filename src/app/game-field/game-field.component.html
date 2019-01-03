@@ -1,0 +1,84 @@
+<ng-template #roundDisplay></ng-template>
+<div class="scene" #scene>
+    <button class="choose-methods" (click)="chooseMethod()">
+      <img src="assets/images/statistic/methods.png" alt="">
+    </button>
+    <canvas #gameField class="field" width="1000" height="590" id="game-field"></canvas>
+    <div class="ground"></div>
+</div>
+
+<ng-template #dialog let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title">Choose your skill</h4>
+    <button type="button" aria-label="close" class="close" (click)="closeBtn()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <ul class='methods-container'>
+      <li *ngFor="let method of methods">
+        <button (click)="displayTask(method.type)">
+          <img src="{{ method.src }}" alt="">
+        </button>
+      </li>
+    </ul>
+  </div>
+</ng-template>
+
+<ng-template #arithmeticTask>
+  <div class="modal-header">
+    <h4 class="modal-title">{{ taskToSolve.label }}</h4>
+    <button type="button" aria-label="close" class="close" (click)="closeBtn()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <h5 class="task">{{ taskToSolve.task }}</h5>
+    <form class="form-inline" (submit)="solutionAct($event, solution)" novalidate>
+      <div class="form-group">
+        <label for="user-solution">You answer is</label>
+        <input type="text" name="user-solution" [(ngModel)]="solution" id="user-solution" class="form-control" placeholder="" aria-describedby="helpId">
+      </div>
+      <button type="submit" class="btn btn-block">Attack</button>
+    </form>
+  </div>
+</ng-template>
+
+<ng-template #dragAndDrop>
+  <div class="modal-header">
+    <h4 class="modal-title">{{ taskToSolve.label }}</h4>
+    <button type="button" aria-label="close" class="close" (click)="closeBtn()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body text-center">
+    <span *ngFor="let letter of draggables" class="letter"
+          [dndDraggable]="letter.data"
+          [dndEffectAllowed]="letter.effectAllowed"
+          [dndDisableIf]="letter.disable">{{ letter.data }}</span>
+    <section class="solution-zone" dndDropzone
+    dndDragoverClass="dnd-hover"
+    (dndDrop)="onDrop($event)">
+      <span *ngFor="let letter of dndSolution" class="letter">{{ letter }}</span>
+  </section>
+  </div>
+</ng-template>
+
+<ng-template #audioTask>
+  <div class="modal-header">
+    <h4 class="modal-title">{{ taskToSolve.label }}</h4>
+    <button type="button" aria-label="close" class="close" (click)="closeBtn()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <button class="btn-play" (click)="pronouceWord()">PLAY</button>
+    <form class="form-inline" (submit)="solutionAct($event, solution)" novalidate>
+      <div class="form-group">
+        <label for="user-solution">You answer is</label>
+        <input type="text" name="user-solution" [(ngModel)]="solution" id="user-solution" class="form-control" placeholder="" aria-describedby="helpId">
+      </div>
+      <button type="submit" class="btn btn-block">Attack</button>
+    </form>
+  </div>
+</ng-template>

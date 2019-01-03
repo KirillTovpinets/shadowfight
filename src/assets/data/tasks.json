@@ -1,0 +1,30 @@
+[
+  {
+    "label": "How much is",
+    "type": "arithmetics",
+    "task": "",
+    "solution": "",
+    "damage": 5
+  },
+  {
+    "label": "Translate into russian",
+    "type": "translation",
+    "task": "",
+    "solution": "",
+    "damage": 10
+  },
+  {
+    "label": "Drag letters in order to get a correct word",
+    "type": "drag&drop",
+    "task": "",
+    "solution": "",
+    "damage": 15
+  },
+  {
+    "label": "Write a pronounced word",
+    "type": "audio",
+    "task": "",
+    "solution": "",
+    "damage": 20
+  }
+]

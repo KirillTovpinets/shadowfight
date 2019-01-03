@@ -1,0 +1,62 @@
+[
+  {
+    "src": "assets/music/fight-5.mp3",
+    "action" : "fight"
+  },
+  {
+    "src": "assets/music/fight-4.mp3",
+    "action" : "fight"
+  },
+  {
+    "src": "assets/music/fight-3.mp3",
+    "action" : "fight"
+  },
+  {
+    "src": "assets/music/fight-2.mp3",
+    "action" : "fight"
+  },
+  {
+    "src": "assets/music/fight-1.mp3",
+    "action" : "fight"
+  },
+  {
+    "src": "assets/music/fight-6.mp3",
+    "action" : "fight"
+  },
+  {
+    "src": "assets/music/menu.mp3",
+    "action" : "menu"
+  },
+  {
+    "src": "assets/sounds/coin_hit4.wav",
+    "action" : "click"
+  },
+  {
+    "src": "assets/sounds/gong.wav",
+    "action" : "start"
+  },
+  {
+    "src": "assets/sounds/attack/m_pl_attack6.wav",
+    "action" : "attack"
+  },
+  {
+    "src": "assets/sounds/attack/m_pl_attack1.wav",
+    "action" : "attack"
+  },
+  {
+    "src": "assets/sounds/attack/m_pl_attack2.wav",
+    "action" : "attack"
+  },
+  {
+    "src": "assets/sounds/attack/m_pl_attack3.wav",
+    "action" : "attack"
+  },
+  {
+    "src": "assets/sounds/attack/m_pl_attack4.wav",
+    "action" : "attack"
+  },
+  {
+    "src": "assets/sounds/attack/m_pl_attack5.wav",
+    "action" : "attack"
+  }
+]

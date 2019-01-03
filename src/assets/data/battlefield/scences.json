@@ -1,0 +1,11 @@
+[
+  { "id": 0, "src": "assets/images/sceenes/arena.jpg"},
+  { "id": 1, "src": "assets/images/sceenes/bamboo_grove.jpg"},
+  { "id": 2, "src": "assets/images/sceenes/battlefield.jpg"},
+  { "id": 3, "src": "assets/images/sceenes/capsules.jpg"},
+  { "id": 4, "src": "assets/images/sceenes/cave.jpg"},
+  { "id": 5, "src": "assets/images/sceenes/dark_room.jpg"},
+  { "id": 6, "src": "assets/images/sceenes/eggs.jpg"},
+  { "id": 7, "src": "assets/images/sceenes/emerald_forest.jpg"},
+  { "id": 8, "src": "assets/images/sceenes/factory.jpg"}
+]

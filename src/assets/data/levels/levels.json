@@ -1,0 +1,56 @@
+[
+  {
+     "level": 1,
+     "avatar": "assets/images/avatars/avatar-1.png",
+     "nickname": "",
+     "head": "",
+     "body": "",
+     "weapoon": "",
+     "hp": 100
+  },
+  {
+    "level": 2,
+    "avatar": "assets/images/avatars/avatar-2.png",
+   "nickname": "",
+   "head": "",
+   "body": "",
+   "weapoon": "",
+   "hp": 100
+  },
+  {
+   "level": 3,
+   "avatar": "assets/images/avatars/avatar-3.png",
+   "nickname": "",
+   "head": "",
+   "body": "",
+   "weapoon": "",
+   "hp": 100
+  },
+  {
+    "level": 4,
+    "avatar": "assets/images/avatars/avatar-4.png",
+   "nickname": "",
+   "head": "",
+   "body": "",
+   "weapoon": "",
+   "hp": 100
+  },
+  {
+    "level": 5,
+    "avatar": "assets/images/avatars/avatar-5.png",
+    "nickname": "",
+    "head": "",
+    "body": "",
+    "weapoon": "",
+    "hp": 100
+  },
+  {
+   "level": 6,
+   "avatar": "assets/images/avatars/avatar-6.png",
+   "nickname": "",
+   "head": "",
+   "body": "",
+   "weapoon": "",
+   "hp": 100
+   }
+]

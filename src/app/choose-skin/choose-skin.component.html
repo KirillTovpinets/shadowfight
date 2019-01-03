@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <div class="game-area">
+    <a class="button back" routerLink="../">Back</a>
+    <a class="button next" (click)="startGame()">Next</a>
+    <h1 class="title">Choose your skin</h1>
+    <div class="skin-area">
+      <div class="preview">
+        <div class="selected-head" #head></div>
+        <div class="selected-body" #body></div>
+        <div class="selected-weapon" #weapon></div>
+        <canvas #frontView width="200" height="500"></canvas>
+      </div>
+    </div>
+    <div class="skin-container">
+      <div class="head">
+        <h3 class="part-title">Head</h3>
+        <div class="head-variants">
+          <figure *ngFor="let skin of headSkins" class="demo" (click)="selectHead(skin)"><img src="{{ skin.src }}" [ngClass]="{'selected': selectedHead == skin}" alt=""></figure>
+        </div>
+      </div>
+      <div class="body">
+        <h3 class="part-title">Body</h3>
+        <div class="body-variants">
+          <figure class="demo" *ngFor="let skin of bodySkins" (click)="selectBody(skin)"><img src="{{ skin.src}}" [ngClass]="{'selected': selectedBody == skin}" alt=""></figure>
+        </div>
+      </div>
+      <div class="weapon">
+        <h3 class="part-title">Weapon</h3>
+        <div class="body-variants">
+          <figure class="demo" *ngFor="let skin of weaponSkins" (click)="selectWeapon(skin)"><img src="{{ skin.src }}" [ngClass]="{'selected': selectedWeapon == skin}" alt=""></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

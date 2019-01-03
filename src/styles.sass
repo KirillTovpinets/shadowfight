@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+*
+  box-sizing: border-box
+
+body, html
+  margin: 0
+  padding: 0
+
+body
+  background-image:url('/assets/images/front.jpg')
+  background-size: cover
+  background-position: center
+button
+  background: none
+  border: none
+.wrapper
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+
+  .game-area
+    width: 50%
+    padding: 20px
+    color: yellow
+    background: rgba(111, 86, 63, .6)
+    position: relative
+    .title
+      text-align: center
+      text-transform: uppercase
+      margin-bottom: 20px
+    .button
+      position: absolute
+      background: rgba(111, 86, 63, .6)
+      padding: 10px 15px
+      color:#fff
+      text-transform: uppercase
+      text-decoration: none
+      top: 0
+      font-size: 20px
+      &:hover
+        background: rgba(111, 86, 63, 1)
+    .back
+      left: -100px
+    .next
+      right: -100px
+    .next:hover
+      cursor: pointer
+
+.modal-content
+  background: url('assets/images/sceenes/background.jpg')
+  background-size: cover
+  background-position: center

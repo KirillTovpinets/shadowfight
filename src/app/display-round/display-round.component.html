@@ -1,0 +1,8 @@
+<div class="screen">
+  <img src="assets/images/round-bg.jpg" alt="" class="background">
+  <div class="levels" #container [style.transform]="getTransformValue()">
+      <div class="img-container" *ngFor="let level of levels" [ngClass]="{ 'defeated': defeated.indexOf(level) !== -1 }">
+          <img src="{{level.avatar}}" alt="">
+      </div>
+  </div>
+</div>

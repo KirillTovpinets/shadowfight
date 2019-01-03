@@ -1,0 +1,8 @@
+[
+  { "id": 0, "src" : "assets/images/skins/weapons-shadow/weapon-1.png"},
+  { "id": 1, "src" : "assets/images/skins/weapons-shadow/weapon-2.png"},
+  { "id": 2, "src" : "assets/images/skins/weapons-shadow/weapon-3.png"},
+  { "id": 3, "src" : "assets/images/skins/weapons-shadow/weapon-4.png"},
+  { "id": 4, "src" : "assets/images/skins/weapons-shadow/weapon-5.png"},
+  { "id": 5, "src" : "assets/images/skins/weapons-shadow/weapon-6.png"}
+]

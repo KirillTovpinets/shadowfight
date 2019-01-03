@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <div class="game-area">
+    <a class="button back" routerLink="../">Menu</a>
+    <h3 class="title">TABLE OF RECORDS</h3>
+    <table>
+      <tr>
+        <th>Nickname</th>
+        <th>Defeated ninjas</th>
+      </tr>
+      <tr *ngFor="let user of list">
+        <td>{{ user.nickname }}</td>
+        <td>{{ user.defeated.length }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,6 @@
+[
+  { "id": 0, "type": "arithmetics", "src": "assets/images/methods/method-1.png"},
+  { "id": 1, "type": "translation", "src": "assets/images/methods/method-6.png"},
+  { "id": 2, "type": "drag&drop", "src": "assets/images/methods/method-2.png"},
+  { "id": 3, "type": "audio", "src": "assets/images/methods/method-3.png"}
+]

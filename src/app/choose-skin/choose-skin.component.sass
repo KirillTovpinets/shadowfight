@@ -1,0 +1,50 @@
+.skin-area
+  padding: 20px
+  text-align: center
+  width: 60%
+  float: left
+  position: relative
+  .selected-head
+    width: 115px
+    position: absolute
+    left: 58%
+    margin-left: -67px
+    top: 4px
+  .selected-body
+    width: 219px
+    position: absolute
+    top: 4px
+    left: 115px
+  .selected-weapon
+    width: 125px
+    position: absolute
+    transform: rotate(90deg)
+    top: 74px
+    right: 20px
+
+.skin-container
+  width: 40%
+  float: left
+  border-left: 2px solid yellow
+  padding: 10px 15px
+  .head-variants:before
+    content: ''
+    display: table
+  .part-title
+    margin-top: 0
+    margin-bottom: 10px
+  .demo
+    float: left
+    margin: 0
+    margin-right: 5px
+    width: 30%
+    img
+      width: 100%
+      filter: grayscale(100%)
+      transition: all .4s ease
+    img.selected
+      filter: grayscale(0%)
+  .demo:hover
+    cursor: pointer
+    img
+      filter: grayscale(0)

@@ -1,0 +1,134 @@
+[
+  {
+    "english": "show",
+    "russian": [
+      "показывать"
+    ]
+  },
+  {
+    "english": "see",
+    "russian": [
+      "видеть"
+    ]
+  },
+  {
+    "english": "look",
+    "russian": [
+      "смотреть"
+    ]
+  },
+  {
+    "english": "ask",
+    "russian": [
+      "спрашивать",
+      "спросить"
+    ]
+  },
+  {
+    "english": "hear",
+    "russian": [
+      "слышать"
+    ]
+  },
+  {
+    "english": "question",
+    "russian": [
+      "вопрос"
+    ]
+  },
+  {
+    "english": "answer",
+    "russian": [
+      "отвечать",
+      "ответ"
+    ]
+  },
+  {
+    "english": "explain",
+    "russian": [
+      "объяснять"
+    ]
+  },
+  {
+    "english": "meet",
+    "russian": [
+      "встречать",
+      "знакомиться"
+    ]
+  },
+  {
+    "english": "give",
+    "russian": [
+      "давать"
+    ]
+  },
+  {
+    "english": "take",
+    "russian": [
+      "брать",
+      "забирать",
+      "уносить"
+    ]
+  },
+  {
+    "english": "bring",
+    "russian": [
+      "приносить",
+      "привозить"
+    ]
+  },
+  {
+    "english": "call",
+    "russian": [
+      "звонить по телефону",
+      "звать"
+    ]
+  },
+  {
+    "english": "send",
+    "russian": [
+      "посылать"
+    ]
+  },
+  {
+    "english": "get",
+    "russian": [
+      "получать",
+      "получить",
+      "добираться"
+    ]
+  },
+  {
+    "english": "invite",
+    "russian": [
+      "приглашать"
+    ]
+  },
+  {
+    "english": "stand",
+    "russian": [
+      "стоять"
+    ]
+  },
+  {
+    "english": "work",
+    "russian": [
+      "работать"
+    ]
+  },
+  {
+    "english": "say",
+    "russian": [
+      "сказать",
+      "говорить"
+    ]
+  },
+  {
+    "english": "tell",
+    "russian": [
+      "сказать",
+      "рассказать",
+      "рассказывать"
+    ]
+  }
+]

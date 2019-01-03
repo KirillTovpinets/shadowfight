@@ -1,0 +1,32 @@
+[
+  { "id": 0,
+    "src" : "assets/images/skins/weapons/weapon-1.png",
+    "userFront" : "assets/images/skins/weapons-shadow/weapon-1.png",
+    "single" : "assets/images/skins/weapons/single/weapon-1.png"
+  },
+  { "id": 1,
+    "src" : "assets/images/skins/weapons/weapon-2.png",
+    "userFront" : "assets/images/skins/weapons-shadow/weapon-2.png",
+    "single" : "assets/images/skins/weapons/single/weapon-2.png"
+  },
+  { "id": 2,
+    "src" : "assets/images/skins/weapons/weapon-3.png",
+    "userFront" : "assets/images/skins/weapons-shadow/weapon-3.png",
+    "single" : "assets/images/skins/weapons/single/weapon-3.png"
+  },
+  { "id": 3,
+    "src" : "assets/images/skins/weapons/weapon-4.png",
+    "userFront" : "assets/images/skins/weapons-shadow/weapon-4.png",
+    "single" : "assets/images/skins/weapons/single/weapon-4.png"
+  },
+  { "id": 4,
+    "src" : "assets/images/skins/weapons/weapon-5.png",
+    "userFront" : "assets/images/skins/weapons-shadow/weapon-5.png",
+    "single" : "assets/images/skins/weapons/single/weapon-5.png"
+  },
+  { "id": 5,
+    "src" : "assets/images/skins/weapons/weapon-6.png",
+    "userFront" : "assets/images/skins/weapons-shadow/weapon-6.png",
+    "single" : "assets/images/skins/weapons/single/weapon-6.png"
+  }
+]
