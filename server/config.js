@@ -1,7 +1,7 @@
 class Config {
   constructor() {
     this.database = {};
-    this.port = process.env.PORT || 3001;
+    this.port = process.env.PORT || 8080;
     this.dbString = process.env.DATABASE_URL || 'mongodb://localhost:27017/game';
   }
 }
