@@ -2,27 +2,31 @@
   height: 100vh
   position: relative
   text-align: center
-  .choose-methods
-    position: absolute
-    top: 50px
-    left: 50%
-    margin-left: -62px
-    img
-      filter: grayscale(100%)
-    &:focus,
-    &:active,
-    &:hover
-      outline: none
-      box-shadow: none
+  .container
+    width: 1000px
+    margin: 0 auto
+    position: relative
+    .choose-methods
+      position: absolute
+      top: 50px
+      left: 50%
+      margin-left: -62px
       img
-        filter: grayscale(0%)
-        cursor: pointer
-  .ground
-    width: 100%
-    height: 200px
-    background-color: #000
-  canvas
-    margin: auto
+        filter: grayscale(100%)
+      &:focus,
+      &:active,
+      &:hover
+        outline: none
+        box-shadow: none
+        img
+          filter: grayscale(0%)
+          cursor: pointer
+    .ground
+      width: 100%
+      height: 200px
+      background-color: #000
+    canvas
+      margin: auto
 
 .modal-body
   label

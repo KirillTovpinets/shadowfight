@@ -1,10 +1,12 @@
 <ng-template #roundDisplay></ng-template>
 <div class="scene" #scene>
+  <div class="container">
     <button class="choose-methods" (click)="chooseMethod()">
       <img src="assets/images/statistic/methods.png" alt="">
     </button>
     <canvas #gameField class="field" width="1000" height="590" id="game-field"></canvas>
-    <div class="ground"></div>
+  </div>
+  <div class="ground"></div>
 </div>
 
 <ng-template #dialog let-modal>
