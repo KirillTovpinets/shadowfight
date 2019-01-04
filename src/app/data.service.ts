@@ -11,9 +11,9 @@ export class DataService {
 
   getSkins(): any {
     const data = {
-      head: this.http.get('assets/data/skins/head.json'),
-      body: this.http.get('assets/data/skins/body.json'),
-      weapon: this.http.get('assets/data/skins/weapon.json'),
+      head: this.http.get('/assets/data/skins/head.json'),
+      body: this.http.get('/assets/data/skins/body.json'),
+      weapon: this.http.get('/assets/data/skins/weapon.json'),
     };
     return data;
   }
@@ -30,11 +30,11 @@ export class DataService {
   }
 
   getLevels(): Observable<any> {
-    return this.http.get('assets/data/levels/levels.json');
+    return this.http.get('/assets/data/levels/levels.json');
   }
 
   getAudio(): Observable<any> {
-    return this.http.get('assets/data/sounds.json');
+    return this.http.get('/assets/data/sounds.json');
   }
   getRecordsList(): Observable<any> {
     return this.http.get('/records');

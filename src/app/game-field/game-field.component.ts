@@ -15,6 +15,7 @@ import { Router } from '@angular/router';
 export class GameFieldComponent implements OnInit {
   @ViewChild('gameField') game: any;
   @ViewChild('scene') scene: any;
+  @ViewChild('sceneElements') container: any;
   @ViewChild('dialog') dialog: TemplateRef<any>;
   @ViewChild('arithmeticTask') arTask: TemplateRef<any>;
   @ViewChild('dragAndDrop') dadTask: TemplateRef<any>;
@@ -292,17 +293,17 @@ export class GameFieldComponent implements OnInit {
       case 'user':
         this.clearElement('user-health');
         health.setAttribute('id', 'user-health');
-        health.style.left = '395px';
+        health.style.left = '175px';
         break;
       case 'opponent':
         this.clearElement('opponent-health');
         health.setAttribute('id', 'opponent-health');
-        health.style.right = '382px';
+        health.style.right = '162px';
         break;
       default:
         break;
     }
-    this.scene.nativeElement.append(health);
+    this.container.nativeElement.append(health);
   }
   chooseMethod() {
     this.gameConfig.playSound('click');
