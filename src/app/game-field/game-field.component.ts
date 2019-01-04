@@ -292,12 +292,12 @@ export class GameFieldComponent implements OnInit {
       case 'user':
         this.clearElement('user-health');
         health.setAttribute('id', 'user-health');
-        health.style.left = '380px';
+        health.style.left = '395px';
         break;
       case 'opponent':
         this.clearElement('opponent-health');
         health.setAttribute('id', 'opponent-health');
-        health.style.right = '396px';
+        health.style.right = '382px';
         break;
       default:
         break;
