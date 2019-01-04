@@ -234,20 +234,20 @@ export class GameFieldComponent implements OnInit {
       case 'left':
         imgEl.style.top = '174px';
         if (_.isEqual(who, 'user')) {
-          imgEl.style.left = '244px';
+          imgEl.style.left = '34px';
           imgEl.style.transform = 'rotate(45deg)';
         } else {
-          imgEl.style.right = '282px';
+          imgEl.style.right = '48px';
           imgEl.style.transform = 'rotate(-45deg)';
         }
         break;
       case 'right':
         imgEl.style.top = '310px';
         if (_.isEqual(who, 'user')) {
-          imgEl.style.left = '561px';
+          imgEl.style.left = '351px';
           imgEl.style.transform = 'rotate(26deg)';
         } else {
-          imgEl.style.right = '597px';
+          imgEl.style.right = '365px';
           imgEl.style.transform = 'rotate(-26deg)';
         }
         break;
@@ -256,7 +256,7 @@ export class GameFieldComponent implements OnInit {
     }
     imgEl.setAttribute('id', `${who}-${pos}-weapon`);
     imgEl.onload = () => {
-      this.scene.nativeElement.append(imgEl);
+      this.container.nativeElement.append(imgEl);
     };
   }
   clearCanvas() {
